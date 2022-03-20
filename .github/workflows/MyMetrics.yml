@@ -10,19 +10,41 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
+      - id: variable
+        run: |
+          echo '::set-output name=MY_RETRIES::3'
+          echo '::set-output name=MY_RETRIES_DELAY::30'
+
       - uses: lowlighter/metrics@latest
         with:
+          filename: metrics.plugin.introduction.svg
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Tokyo
-          retries: 3
-          retries_delay: 30
+          retries: ${{steps.variable.outputs.MY_RETRIES}}
+          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
 
           base: header
-          
+
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.introduction.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          config_timezone: Asia/Tokyo
+          retries: ${{steps.variable.outputs.MY_RETRIES}}
+          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
+        
           plugin_isocalendar: yes
-          
+
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.introduction.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          config_timezone: Asia/Tokyo
+          retries: ${{steps.variable.outputs.MY_RETRIES}}
+          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
+
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: C
-          
-          config_order: base.header,isocalendar,achievements
