@@ -16,8 +16,8 @@ Here are some ideas to get you started:
   <img alt="base-header" width="70%" src="./github-metrics-base-header.svg" />
 </p>
 <p align="left"> 
-  <img alt="isocalendar" height="200px" src="./github-metrics-isocalendar.svg" />
-  <img alt="achievements" height="200px" src="./github-metrics-achievements.svg" />
+  <img alt="isocalendar" height="150px" src="./github-metrics-isocalendar.svg" />
+  <img alt="achievements" height="150px" src="./github-metrics-achievements.svg" />
 </p>
 
 <p align="left"> 
@@ -26,3 +26,7 @@ Here are some ideas to get you started:
 </p>
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=nisioka&theme=gruvbox&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+<p align="left"> 
+  <img alt="base-header" width="70%" src="./github-metrics-pagespeed.svg" />
+</p>
