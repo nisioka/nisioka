@@ -13,8 +13,7 @@ jobs:
       - id: variable
         run: |
           echo '::set-output name=MY_TIMEZONE::Asia/Tokyo'
-          echo '::set-output name=MY_RETRIES::2'
-          echo '::set-output name=MY_RETRIES_DELAY::30'
+          echo '::set-output name=MY_RETRIES::1'
 
       - uses: lowlighter/metrics@latest
         name: base-header
@@ -22,7 +21,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
 
           filename: github-metrics-base-header.svg
           base: header
@@ -33,7 +31,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
 
           filename: github-metrics-base.svg
 
@@ -43,7 +40,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-isocalendar.svg
@@ -55,7 +51,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-languages.svg
@@ -71,7 +66,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-topics.svg
@@ -85,7 +79,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-stars.svg
@@ -98,7 +91,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-licenses.svg
@@ -114,7 +106,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-habits.svg
@@ -128,10 +119,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-contributors.svg
+          template: repository
           repo: metrics
           plugin_contributors: yes
           plugin_contributors_contributions: yes
@@ -142,7 +133,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-followup.svg
@@ -155,7 +145,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-reactions.svg
@@ -169,7 +158,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-people.svg
@@ -182,7 +170,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-stargazers.svg
@@ -195,7 +182,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-code.svg
@@ -208,7 +194,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-activity.svg
@@ -222,7 +207,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
 
           filename: github-metrics-achievements.svg
@@ -236,7 +220,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-notable.svg
@@ -250,7 +233,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-discussions.svg
@@ -263,7 +245,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-support.svg
@@ -275,7 +256,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-lines.svg
@@ -287,7 +267,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-traffic.svg
@@ -299,7 +278,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-repositories.svg
@@ -311,7 +289,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-gists.svg
@@ -323,7 +300,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-introduction.svg
@@ -335,7 +311,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-sponsors.svg
@@ -347,7 +322,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-starlists.svg
@@ -362,7 +336,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-skyline.svg
@@ -374,7 +347,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
           retries: ${{steps.variable.outputs.MY_RETRIES}}
-          retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
           base: ""
         
           filename: github-metrics-pagespeed.svg
