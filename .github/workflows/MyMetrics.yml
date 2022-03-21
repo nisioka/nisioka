@@ -123,7 +123,7 @@ jobs:
         
           filename: github-metrics-contributors.svg
           template: repository
-          repo: metrics
+#           repo: metrics
           plugin_contributors: yes
           plugin_contributors_contributions: yes
 
