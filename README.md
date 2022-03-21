@@ -13,20 +13,25 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <p align="left"> 
-  <img alt="base-header" width="70%" src="./github-metrics-base-header.svg" />
+  <img alt="base-header" width="50%" src="./github-metrics-base-header.svg" />
+
 </p>
 <p align="left"> 
-  <img alt="isocalendar" height="150px" src="./github-metrics-isocalendar.svg" />
-  <img alt="achievements" height="150px" src="./github-metrics-achievements.svg" />
+  <img alt="isocalendar" width="35%" src="./github-metrics-isocalendar.svg" />
+  <img alt="achievements" width="35%" src="./github-metrics-achievements.svg" />
 </p>
 
 <p align="left"> 
+  <img alt="languages" width="50%" src="./github-metrics-languages.svg" />
+</p>
+
+<p align="left"> 
+  <img alt="base-header" width="50%" src="./github-metrics-pagespeed.svg" />
+</p>
+
+<!-- <p align="left"> 
   <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nisioka&theme=gruvbox&layout=compact" />
   <img alt="github stats" height="150px" src="https://github-readme-stats.vercel.app/api?username=nisioka&theme=gruvbox&show_icons=true" />
 </p>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=nisioka&theme=gruvbox&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-<p align="left"> 
-  <img alt="base-header" width="70%" src="./github-metrics-pagespeed.svg" />
-</p>
+[![trophy](https://github-profile-trophy.vercel.app/?username=nisioka&theme=gruvbox&column=7)](https://github.com/ryo-ma/github-profile-trophy) -->
