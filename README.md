@@ -12,7 +12,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Metrics](https://github.com/nisioka/nisioka/blob/master/github-metrics.svg)
+<p align="left"> 
+  <img alt="base-header" width="50%" src="./github-metrics-base-header.svg" />
+</p>
+<p align="left"> 
+  <img alt="isocalendar" height="150px" src="./github-metrics-isocalendar.svg" />
+  <img alt="achievements" height="150px" src="./github-metrics-achievements.svg" />
+</p>
 
 <p align="left"> 
   <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nisioka&theme=gruvbox&layout=compact" />
