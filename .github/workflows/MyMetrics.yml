@@ -94,7 +94,6 @@ jobs:
           base: ""
         
           filename: github-metrics-licenses.svg
-#           repo: metrics
           plugin_licenses: yes
           plugin_licenses_setup: npm ci
           plugin_licenses_legal: no
@@ -112,20 +111,6 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
-
-      - uses: lowlighter/metrics@latest
-        name: contributors
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          config_timezone: ${{steps.variable.outputs.MY_TIMEZONE}}
-          retries: ${{steps.variable.outputs.MY_RETRIES}}
-          base: ""
-        
-          filename: github-metrics-contributors.svg
-          template: repository
-#           repo: metrics
-          plugin_contributors: yes
-          plugin_contributors_contributions: yes
 
       - uses: lowlighter/metrics@latest
         name: followup
