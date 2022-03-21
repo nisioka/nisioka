@@ -13,11 +13,11 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <p align="left"> 
-  <img alt="base-header" width="50%" src="./github-metrics-base-header.svg" />
+  <img alt="base-header" width="70%" src="./github-metrics-base-header.svg" />
 </p>
 <p align="left"> 
-  <img alt="isocalendar" height="150px" src="./github-metrics-isocalendar.svg" />
-  <img alt="achievements" height="150px" src="./github-metrics-achievements.svg" />
+  <img alt="isocalendar" height="200px" src="./github-metrics-isocalendar.svg" />
+  <img alt="achievements" height="200px" src="./github-metrics-achievements.svg" />
 </p>
 
 <p align="left"> 
