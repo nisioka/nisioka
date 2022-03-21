@@ -33,6 +33,7 @@ jobs:
           config_timezone: Asia/Tokyo
           retries: ${{steps.variable.outputs.MY_RETRIES}}
           retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
+          base: ""
         
           plugin_isocalendar: yes
 
@@ -44,6 +45,7 @@ jobs:
           config_timezone: Asia/Tokyo
           retries: ${{steps.variable.outputs.MY_RETRIES}}
           retries_delay: ${{steps.variable.outputs.MY_RETRIES_DELAY}}
+          base: ""
 
           plugin_achievements: yes
           plugin_achievements_display: compact
