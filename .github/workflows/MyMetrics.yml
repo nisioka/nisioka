@@ -337,4 +337,4 @@ jobs:
           filename: github-metrics-pagespeed.svg
           plugin_pagespeed: yes
           plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_url: https://github.com/nisioka/nisioka
+          plugin_pagespeed_url: https://github.com/nisioka
