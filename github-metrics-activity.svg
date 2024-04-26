@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="378" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="688" class="">
     <defs>
         <style/>
     </defs>
@@ -22,6 +22,167 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                                        Pushed 737 commits in
+                                        <span class="repo">nisioka/docker-wordpress</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">develop</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#79f8195</div>
+                                        <div class="message">Update MyMetrics.yml</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3eaccbb</div>
+                                        <div class="message">Update github-metrics-pagespeed.svg - [Skip GitHub Action]</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#0004419</div>
+                                        <div class="message">Update README.md</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#cbe4fa8</div>
+                                        <div class="message">Create MyMetrics.yml</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1b4f888</div>
+                                        <div class="message">Rename Untitled Diagram.drawio to Diagram.drawio</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d761a0f</div>
+                                        <div class="message">Merge remote-tracking branch 'origin/main' into main</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#637fd9c</div>
+                                        <div class="message">不要なポートマッピングを削除。</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#6a98bb6</div>
+                                        <div class="message">swapのセットアップを追加。</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#25e131f</div>
+                                        <div class="message">Update Diagram.drawio</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#57345c1</div>
+                                        <div class="message">Diagram.drawio</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e1f4afd</div>
+                                        <div class="message">typo.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#022e660</div>
+                                        <div class="message">wp-config.phpの修正をdocker-composeに反映させるようにした。</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#93172b0</div>
+                                        <div class="message">httpsのポートに変更</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#0c1ecf6</div>
+                                        <div class="message">・mysql→mariadb
+・ディレクトリ変更。</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2df6175</div>
+                                        <div class="message">軽微修正。</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e98aee3</div>
+                                        <div class="message">軽微修正。</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9a04e8e</div>
+                                        <div class="message">以下修正：
+・秘匿情報の環境変数化
+・wordpressイメージタグを固定化
+・永続化のため名前付きボリュームをセット
+・アップロード定義を追加
+
+https://qiita.com/reon777/items/05e7ad47ed75597470e8</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d805f8d</div>
+                                        <div class="message">EC2にパラメータストアデータを環境変数で流し込むシェル。
+https://garafu.blogspot.com/2020/08/ec2-set-env-from-paramstore.html</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#035dc95</div>
+                                        <div class="message">docker公式のテンプレートを初期コミット。
+https://docs.docker.com/compose/wordpress/</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#c9cb705</div>
+                                        <div class="message">Initial commit</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Created new
+                      branch
+                                        <span class="code">develop</span>
+                                        in
+                                        <span class="repo">nisioka/docker-wordpress</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">nisioka/www.malpractice-committee.com</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#013c333</div>
+                                        <div class="message">page speedメトリクス削除</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">nisioka/www.malpractice-committee.com</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#816e43b</div>
+                                        <div class="message">page speedメトリクスを追加。</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                                         Pushed 1 commit in
                                         <span class="repo">nisioka/www.malpractice-committee.com</span>
                                     </div>
@@ -31,86 +192,6 @@
                                     <div class="commit">
                                         <div class="sha">#49da88f</div>
                                         <div class="message">新しいカスタムドメインのURLに変更。</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">nisioka/www.malpractice-committee.com</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#88f3956</div>
-                                        <div class="message">新しいgithub pagesのURLに変更。</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">nisioka/www.malpractice-committee.com</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#8b89497</div>
-                                        <div class="message">各種の細かなファイル追加。</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">nisioka/www.malpractice-committee.com</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#7b33ac9</div>
-                                        <div class="message">各種の細かなファイル追加。</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">nisioka/www.malpractice-committee.com</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#0db51f2</div>
-                                        <div class="message">目次誤りを修正。</div>
                                     </div>
                                 </div>
                             </section>
