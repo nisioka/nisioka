@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="944" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="428" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -19,135 +19,16 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 48 commits in
-                                        <span class="repo">AlpacaDB/alpacax_grpc</span>
+                                        Commented on
+                                        <span class="issue">#153 fix bugs for torihikihokokusho.</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">develop</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#2d8ccd3</div>
-                                        <div class="message">Merge pull request #1338 from AlpacaDB/release-v16.1.0
-
-Release v16.1.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a2e261f</div>
-                                        <div class="message">Merge pull request #1333 from AlpacaDB/release-v16.0.0
-
-Release v16.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#acd9f55</div>
-                                        <div class="message">Merge pull request #1325 from AlpacaDB/release-v15.2.0
-
-Release v15.2.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#b011392</div>
-                                        <div class="message">Merge pull request #1316 from AlpacaDB/release-v15.1.0
-
-Release v15.1.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#6bd0bd4</div>
-                                        <div class="message">Merge pull request #1301 from AlpacaDB/release-v15.0.0
-
-Release v15.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#55a23b1</div>
-                                        <div class="message">Merge pull request #1246 from AlpacaDB/release-v14.0.0
-
-Release v14.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1fea2ac</div>
-                                        <div class="message">Merge pull request #1213 from AlpacaDB/release-v13.1.0
-
-Release v13.1.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ee42353</div>
-                                        <div class="message">Merge pull request #1187 from AlpacaDB/release-v13.0.0
-
-Release v13.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#36e7f95</div>
-                                        <div class="message">Merge pull request #1158 from AlpacaDB/release-v12.0.0
-
-release-v12.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1fc6562</div>
-                                        <div class="message">Merge pull request #1130 from AlpacaDB/release-v11.0.0
-
-release-v11.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ea36075</div>
-                                        <div class="message">Merge pull request #1114 from AlpacaDB/release-v10.0.0
-
-release-v10.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#271ab6d</div>
-                                        <div class="message">Merge pull request #1115 from AlpacaDB/release-v9.0.1
-
-Release v9.0.1 to release v10.0.0</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#18ade33</div>
-                                        <div class="message">Merge pull request #1102 from AlpacaDB/release-v9.0.0
-
-release-v9.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7f0aa43</div>
-                                        <div class="message">Merge pull request #1091 from AlpacaDB/release-v8.1.0
-
-release-v8.1.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0cd83d6</div>
-                                        <div class="message">Merge pull request #1087 from AlpacaDB/release-v8.0.0
-
-release-v8.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#dd682a2</div>
-                                        <div class="message">Merge pull request #1080 from AlpacaDB/release-v7.4.0
-
-release-v7.4.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1f79449</div>
-                                        <div class="message">Merge pull request #1071 from AlpacaDB/release-v7.3.0
-
-Release v7.3.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#62e4227</div>
-                                        <div class="message">Merge pull request #1060 from AlpacaDB/release-v7.2.0
-
-release-v7.2.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#13c2d45</div>
-                                        <div class="message">Merge pull request #1032 from AlpacaDB/release-v7.1.0
-
-Release v7.1.0 -&gt; master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f77a453</div>
-                                        <div class="message">Merge pull request #1029 from AlpacaDB/release-v7.0.7
-
-Release v7.0.7 -&gt; master</div>
-                                    </div>
+                                    <div>opened by nisioka in <span class="repo">alpacahq/reporting</span></div>
+                                    <div class="comment">A negative value was entered in the sell, but the PDF shows a positive value, so replace it.</div>
                                 </div>
                             </section>
                         </div>
@@ -155,136 +36,16 @@ Release v7.0.7 -&gt; master</div>
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 22 commits in
-                                        <span class="repo">AlpacaDB/alpacax_web</span>
+                                        Commented on
+                                        <span class="issue">#153 fix bugs for torihikihokokusho.</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">develop</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#a988dc7</div>
-                                        <div class="message">Merge pull request #4388 from AlpacaDB/feature/revert-v37.1.0
-
-Revert v37.1.0</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#78b92f5</div>
-                                        <div class="message">Revert "Merge pull request #4380 from AlpacaDB/feature/grpc_code_gen_20250214"
-
-This reverts commit f1fe8ef27489aa74ba01c666e0db12c57d62c476, reversing
-changes made to aca7692d69a03f3c34553797eb965fceac562243.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#de432f8</div>
-                                        <div class="message">Merge pull request #4385 from AlpacaDB/release-v37.1.0
-
-Release v37.1.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c1da621</div>
-                                        <div class="message">Merge pull request #4375 from AlpacaDB/release-v37.0.0
-
-Release v37.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1231c8a</div>
-                                        <div class="message">Merge pull request #4357 from AlpacaDB/release-v36.0.0
-
-Release v36.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#eae8db0</div>
-                                        <div class="message">Merge pull request #4343 from AlpacaDB/release-v35.0.0
-
-Release v35.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3d7ee36</div>
-                                        <div class="message">Merge pull request #4324 from AlpacaDB/release-v34.0.0
-
-Release v34.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#752b137</div>
-                                        <div class="message">Merge pull request #4312 from AlpacaDB/release-v33.0.1
-
-[ALPX-33579]Release v33.0.1</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#080b44f</div>
-                                        <div class="message">Merge pull request #4301 from AlpacaDB/release-v33.0.0
-
-Release v33.0.0 to matser</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4f5d1c2</div>
-                                        <div class="message">Merge pull request #4265 from AlpacaDB/release-v32.0.0
-
-Release v32.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#b63fb92</div>
-                                        <div class="message">Merge pull request #4252 from AlpacaDB/release-v31.0.0
-
-Release v31.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2295158</div>
-                                        <div class="message">Merge pull request #4230 from AlpacaDB/release-v30.0.0
-
-Release v30.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#73eb75a</div>
-                                        <div class="message">Merge pull request #4219 from AlpacaDB/release-v29.0.0
-
-Release v29.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a898367</div>
-                                        <div class="message">Merge pull request #4201 from AlpacaDB/release-v28.0.0
-
-Release v28.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f267281</div>
-                                        <div class="message">Merge pull request #4197 from AlpacaDB/release-v27.2.0
-
-Release v27.2.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#26cf176</div>
-                                        <div class="message">Merge pull request #4170 from AlpacaDB/release-v27.0.0
-
-Release v27.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5fd9e4e</div>
-                                        <div class="message">Merge pull request #4126 from AlpacaDB/release-v26.0.0
-
-Release v26.0.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4af8f9d</div>
-                                        <div class="message">Merge pull request #4083 from AlpacaDB/release-v25.2.0
-
-Release v25.2.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#624e413</div>
-                                        <div class="message">Merge pull request #4072 from AlpacaDB/release-v25.1.0
-
-Release v25.1.0 to master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7a11c0c</div>
-                                        <div class="message">Merge pull request #4062 from AlpacaDB/release-v25.0.0
-
-Release v25.0.0 to master</div>
-                                    </div>
+                                    <div>opened by nisioka in <span class="repo">alpacahq/reporting</span></div>
+                                    <div class="comment">Just moved.</div>
                                 </div>
                             </section>
                         </div>
@@ -292,52 +53,16 @@ Release v25.0.0 to master</div>
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
-                                        Deleted
-                      branch
-                                        <span class="code">dependabot/docker/dockerfiles/socat/develop/alpine-3.21.3</span>
-                                        in
-                                        <span class="repo">AlpacaDB/alpacax_core</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">AlpacaDB/alpacax_core</span>
+                                        Commented on
+                                        <span class="issue">#153 fix bugs for torihikihokokusho.</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">develop</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#1df49ac</div>
-                                        <div class="message">Merge pull request #7012 from AlpacaDB/dependabot/docker/dockerfiles/socat/develop/alpine-3.21.3
-
-Bump alpine from 3.21.2 to 3.21.3 in /dockerfiles/socat</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4f5d4d4</div>
-                                        <div class="message">Bump alpine from 3.21.2 to 3.21.3 in /dockerfiles/socat
-
-Bumps alpine from 3.21.2 to 3.21.3.
-
----
-updated-dependencies:
-- dependency-name: alpine
-  dependency-type: direct:production
-  update-type: version-update:semver-patch
-...
-
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt;</div>
-                                    </div>
+                                    <div>opened by nisioka in <span class="repo">alpacahq/reporting</span></div>
+                                    <div class="comment">Only executed data is required, not canceled or other data.</div>
                                 </div>
                             </section>
                         </div>
@@ -345,15 +70,33 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt;</div>
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
-                                        Deleted
-                      branch
-                                        <span class="code">dependabot/docker/dockerfiles/externalif_ftp/develop/python-3.13.2-slim-bullseye</span>
-                                        in
-                                        <span class="repo">AlpacaDB/alpacax_core</span>
+                                        Commented on
+                                        <span class="issue">#153 fix bugs for torihikihokokusho.</span>
                                     </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by nisioka in <span class="repo">alpacahq/reporting</span></div>
+                                    <div class="comment">Deleted because of display collapse that occurs when trying to adjust height or unnecessarily lengthening when there are two records.</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#153 fix bugs for torihikihokokusho.</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by nisioka in <span class="repo">alpacahq/reporting</span></div>
+                                    <div class="comment">No FEE data is required for torihikihokokusho.</div>
                                 </div>
                             </section>
                         </div>
